@@ -12,7 +12,7 @@ import org.openqa.selenium.support.FindBy;
 public class LoginPage extends PageObject {
 
     @FindBy(id = "_com_liferay_login_web_portlet_LoginPortlet_login")
-    WebElement Username;
+     WebElement Username;
 
     @FindBy(id = "_com_liferay_login_web_portlet_LoginPortlet_password")
     WebElement Password;

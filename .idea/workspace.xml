@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fa950d1-85ff-42f0-9982-709f0caa1a57" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/serenity.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Helpers/GetData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Helpers/WaitHelpers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PageObjects/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepsLibraries/LoginSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/LoginTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/chromedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PageObjects/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ScreenPlayPattern/Questions/TheUserName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ScreenPlayPattern/SampleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ScreenPlayPattern/Tasks/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ScreenPlayPattern/Ui/Header.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ScreenPlayPattern/Ui/LoginBox.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/LoginTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -28,13 +26,23 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="495">
+              <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -43,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/Helpers/GetData.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="33" column="23" lean-forward="true" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+              <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#900#901#0" expanded="true" />
@@ -56,8 +64,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+            <state relative-caret-position="234">
+              <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,54 +74,83 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/serenity.properties">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ScreenPlayPattern/Questions/TheUserName.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+            <state relative-caret-position="165">
+              <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#319#320#0" expanded="true" />
+                <element signature="e#384#385#0" expanded="true" />
+                <element signature="e#320#321#0" expanded="true" />
+                <element signature="e#359#360#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/config.properties">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ScreenPlayPattern/Tasks/Login.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-screenplay-webdriver/2.0.41/71eb79674eb55b3267d796dcbc62bd2cf0c05c33/serenity-screenplay-webdriver-2.0.41-sources.jar!/net/serenitybdd/screenplay/actions/Enter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="50" selection-start-column="10" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/StepsLibraries/LoginSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="26" column="56" lean-forward="true" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#337#338#0" expanded="true" />
-                <element signature="e#369#370#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Tests/LoginTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#792#793#0" expanded="true" />
+                <element signature="e#872#873#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Helpers/WaitHelpers.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ScreenPlayPattern/SampleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="63" lean-forward="true" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
+            <state relative-caret-position="216">
+              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#645#646#0" expanded="true" />
+                <element signature="e#669#670#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ScreenPlayPattern/Ui/LoginBox.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="77" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="7" selection-end-column="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ScreenPlayPattern/Ui/Header.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="42" lean-forward="true" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/HomePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="106" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -138,18 +175,26 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/resources/config.properties" />
         <option value="$PROJECT_DIR$/src/test/java/Helpers/GetData.java" />
-        <option value="$PROJECT_DIR$/src/test/java/PageObjects/LoginPage.java" />
         <option value="$PROJECT_DIR$/serenity.properties" />
         <option value="$PROJECT_DIR$/src/test/java/Helpers/WaitHelpers.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/test/java/Tests/LoginTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/StepsLibraries/LoginSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Tests/LoginTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ScreenPlayPattern/Tasks/OpenLoginPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ScreenPlayPattern/Tasks/StartWith.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ScreenPlayPattern/SampleTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PageObjects/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PageObjects/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ScreenPlayPattern/Ui/LoginBox.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ScreenPlayPattern/Tasks/Login.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ScreenPlayPattern/Ui/Header.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ScreenPlayPattern/Questions/TheUserName.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1718" />
-    <option name="y" value="192" />
+    <option name="x" value="1538" />
+    <option name="y" value="196" />
     <option name="width" value="1440" />
     <option name="height" value="822" />
   </component>
@@ -191,7 +236,49 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Helpers" type="462c0819:PsiDirectoryNode" />
+              <item name="PageObjects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SerenityPoc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Serenity-Framework-POC" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ScreenPlayPattern" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SerenityPoc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Serenity-Framework-POC" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ScreenPlayPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="Questions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SerenityPoc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Serenity-Framework-POC" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ScreenPlayPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="Tasks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SerenityPoc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Serenity-Framework-POC" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ScreenPlayPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="Ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SerenityPoc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Serenity-Framework-POC" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -200,7 +287,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553769418951" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553787566084" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -222,26 +309,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.Serenity-Framework-POC [test]">
-    <configuration name="Serenity-Framework-POC [aggregate]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="aggregate" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JUnit.SampleTest.users_should_be_able_to_login">
     <configuration name="Serenity-Framework-POC [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -311,13 +379,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SampleTest.users_should_be_able_to_login" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SerenityPoc.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ScreenPlayPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ScreenPlayPattern" />
+      <option name="MAIN_CLASS_NAME" value="ScreenPlayPattern.SampleTest" />
+      <option name="METHOD_NAME" value="users_should_be_able_to_login" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SampleTest.users_should_be_able_to_login" />
         <item itemvalue="Gradle.Serenity-Framework-POC [test]" />
+        <item itemvalue="Gradle.Serenity-Framework-POC [dependencies]" />
         <item itemvalue="JUnit.LoginTests.user_should_be_able_to_login (1)" />
         <item itemvalue="JUnit.LoginTests" />
-        <item itemvalue="Gradle.Serenity-Framework-POC [dependencies]" />
-        <item itemvalue="Gradle.Serenity-Framework-POC [aggregate]" />
       </list>
     </recent_temporary>
   </component>
@@ -335,27 +419,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoginTests - 2019.03.28 at 11h 14m 35s.xml">
-      <configuration name="LoginTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoginTests - 2019.03.28 at 11h 16m 57s.xml">
-      <configuration name="LoginTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoginTests_user_should_be_able_to_login_(1) - 2019.03.28 at 11h 20m 52s.xml">
-      <configuration name="LoginTests.user_should_be_able_to_login (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Serenity-Framework-POC_[test] - 2019.03.28 at 11h 22m 18s.xml">
-      <configuration name="Serenity-Framework-POC [test]" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="Serenity-Framework-POC_[test] - 2019.03.28 at 11h 25m 35s.xml">
-      <configuration name="Serenity-Framework-POC [test]" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="Serenity-Framework-POC_[test] - 2019.03.28 at 11h 25m 36s.xml">
-      <configuration name="Serenity-Framework-POC [test]" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="Serenity-Framework-POC_[test] - 2019.03.28 at 11h 27m 50s.xml">
-      <configuration name="Serenity-Framework-POC [test]" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="Serenity-Framework-POC_[test] - 2019.03.28 at 11h 28m 13s.xml">
       <configuration name="Serenity-Framework-POC [test]" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -365,9 +428,30 @@
     <history-entry file="Serenity-Framework-POC_[test] - 2019.03.28 at 11h 34m 36s.xml">
       <configuration name="Serenity-Framework-POC [test]" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="Serenity-Framework-POC_[test] - 2019.03.28 at 15h 13m 29s.xml">
+      <configuration name="Serenity-Framework-POC [test]" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="SampleTest_users_should_be_able_to_login - 2019.03.28 at 15h 56m 08s.xml">
+      <configuration name="SampleTest.users_should_be_able_to_login" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SampleTest_users_should_be_able_to_login - 2019.03.28 at 16h 07m 37s.xml">
+      <configuration name="SampleTest.users_should_be_able_to_login" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SampleTest_users_should_be_able_to_login - 2019.03.28 at 16h 08m 23s.xml">
+      <configuration name="SampleTest.users_should_be_able_to_login" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SampleTest_users_should_be_able_to_login - 2019.03.28 at 16h 10m 00s.xml">
+      <configuration name="SampleTest.users_should_be_able_to_login" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SampleTest_users_should_be_able_to_login - 2019.03.28 at 16h 16m 35s.xml">
+      <configuration name="SampleTest.users_should_be_able_to_login" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SampleTest_users_should_be_able_to_login - 2019.03.28 at 16h 37m 27s.xml">
+      <configuration name="SampleTest.users_should_be_able_to_login" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1718" y="192" width="1440" height="822" extended-state="0" />
+    <frame x="1538" y="196" width="1440" height="822" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28183118" />
@@ -423,16 +507,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/serenity.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -440,27 +514,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/LoginTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/StepsLibraries/LoginSteps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
-          <caret line="26" column="56" lean-forward="true" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+          <caret line="26" column="56" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#337#338#0" expanded="true" />
@@ -469,10 +526,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Helpers/WaitHelpers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/LoginTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ScreenPlayPattern/Tasks/OpenLoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ScreenPlayPattern/Tasks/StartWith.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Helpers/GetData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="33" column="23" lean-forward="true" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#900#901#0" expanded="true" />
@@ -481,12 +585,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Helpers/WaitHelpers.java">
+    <entry file="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-screenplay-webdriver/2.0.41/71eb79674eb55b3267d796dcbc62bd2cf0c05c33/serenity-screenplay-webdriver-2.0.41-sources.jar!/net/serenitybdd/screenplay/actions/Enter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="63" lean-forward="true" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
+        <state>
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="e#792#793#0" expanded="true" />
+            <element signature="e#872#873#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ScreenPlayPattern/Ui/LoginBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="77" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="7" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="106" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ScreenPlayPattern/Tasks/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ScreenPlayPattern/Ui/Header.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="42" lean-forward="true" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ScreenPlayPattern/Questions/TheUserName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ScreenPlayPattern/SampleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
           </folding>
         </state>
       </provider>
