@@ -1,7 +1,6 @@
 package ScreenPlayPattern.Tasks;
 
-import PageObjects.LoginPage;
-import ScreenPlayPattern.Ui.LoginBox;
+import ScreenPlayPattern.Ui.LoginPage;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.*;
@@ -22,10 +21,10 @@ public class Login implements Task {
     @Override
     @Step ("Login with username #username and password #password")
     public <T extends Actor> void performAs(T actor) {
-        actor.attemptsTo(Clear.field(LoginBox.USERNAME));
-        actor.attemptsTo(Enter.theValue(username).into(LoginBox.USERNAME));
-        actor.attemptsTo(Enter.theValue(password).into(LoginBox.PASSWORD));
-        actor.attemptsTo(Click.on(LoginBox.LOGIN_BUTTON));
+        actor.attemptsTo(Clear.field(LoginPage.USERNAME));
+        actor.attemptsTo(Enter.theValue(username).into(LoginPage.USERNAME));
+        actor.attemptsTo(Enter.theValue(password).into(LoginPage.PASSWORD));
+        actor.attemptsTo(Click.on(LoginPage.LOGIN_BUTTON));
 
     }
 

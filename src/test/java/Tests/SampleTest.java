@@ -1,8 +1,8 @@
-package ScreenPlayPattern;
+package Tests;
 
-import PageObjects.LoginPage;
 import ScreenPlayPattern.Questions.TheUserName;
 import ScreenPlayPattern.Tasks.Login;
+import ScreenPlayPattern.Ui.LoginPage;
 import net.serenitybdd.junit.runners.SerenityRunner;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
@@ -24,13 +24,13 @@ import static org.hamcrest.CoreMatchers.is;
 @RunWith(SerenityRunner.class)
 public class SampleTest {
 
-    Actor adminUser = Actor.named("Admin");
+    private Actor adminUser = Actor.named("Admin");
 
 
     @Managed(uniqueSession = true)
     public WebDriver hisBrowser;
 
-    @Steps
+
     LoginPage loginPage;
 
 
