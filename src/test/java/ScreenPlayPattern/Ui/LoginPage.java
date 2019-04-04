@@ -3,8 +3,9 @@ package ScreenPlayPattern.Ui;
 import net.serenitybdd.screenplay.targets.Target;
 import net.thucydides.core.annotations.DefaultUrl;
 import net.thucydides.core.pages.PageObject;
+import org.openqa.selenium.By;
 
-@DefaultUrl("https://subsidie-demo.test.worth.systems/web/guest/home?p_p_id=com_liferay_login_web_portlet_LoginPortlet&p_p_lifecycle=0&p_p_state=maximized&p_p_mode=view&saveLastPath=false&_com_liferay_login_web_portlet_LoginPortlet_mvcRenderCommandName=%2Flogin%2Flogin")
+@DefaultUrl("https://acc-ls2.mfaservices.nl/c/portal/login")
 public class LoginPage extends PageObject {
     public static Target USERNAME
             = Target.the("Username text box")
@@ -15,4 +16,19 @@ public class LoginPage extends PageObject {
     public static Target LOGIN_BUTTON
             = Target.the("Login Button")
             .locatedBy("button[id*='_login_web_portlet_LoginPortlet_']");
+
+
+    // Microsoft account login
+    public static Target MICROSOFT_EMAIL
+            = Target.the("Microsoft email text box")
+            .located(By.cssSelector("input[type='email']"));
+    public static Target MICROSOFT_PASSWORD
+            = Target.the("Microsoft password text box")
+            .located(By.cssSelector("input[type='password']"));
+    public static Target MICROSOFT_NEXT_BTN
+            = Target.the("Microsoft submit button")
+            .located(By.cssSelector("div.inline-block>input[type='submit'][value='Next']"));
+    public static Target MICROSOFT_SIGNIN_BTN
+            = Target.the("Microsoft submit button")
+            .located(By.cssSelector("div.inline-block>input[type='submit'][value='Sign in']"));
 }

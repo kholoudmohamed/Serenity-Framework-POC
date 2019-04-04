@@ -7,10 +7,7 @@ import net.serenitybdd.junit.runners.SerenityRunner;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
 import net.serenitybdd.screenplay.actions.Open;
-import net.serenitybdd.screenplay.questions.page.TheWebPage;
 import net.thucydides.core.annotations.Managed;
-import net.thucydides.core.annotations.Step;
-import net.thucydides.core.annotations.Steps;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -18,7 +15,6 @@ import org.openqa.selenium.WebDriver;
 
 import static net.serenitybdd.screenplay.EventualConsequence.eventually;
 import static net.serenitybdd.screenplay.GivenWhenThen.*;
-import static org.hamcrest.CoreMatchers.containsString;
 import static org.hamcrest.CoreMatchers.is;
 
 @RunWith(SerenityRunner.class)
@@ -45,5 +41,12 @@ public class SampleTest {
         givenThat(adminUser).wasAbleTo(Open.browserOn().the(loginPage));
         when(adminUser).attemptsTo(Login.withCredentials("kmohamed@worth.systems","Test123!"));
         then(adminUser).should(eventually(seeThat(TheUserName.displayed(),is("Kholoud Mohamed"))));
+    }
+
+    @Test
+    public void users_should_be_able_to_login_with_microsoft_account()
+    {
+        givenThat(adminUser).wasAbleTo(Open.browserOn().the(loginPage));
+        when(adminUser).attemptsTo(Login.withMicrosoftCredentials("rigoberto.castellan@minbuza.onmicrosoft.com","Robles*866"));
     }
 }
