@@ -47,6 +47,6 @@ public class SampleTest {
     public void users_should_be_able_to_login_with_microsoft_account()
     {
         givenThat(adminUser).wasAbleTo(Open.browserOn().the(loginPage));
-        when(adminUser).attemptsTo(Login.withMicrosoftCredentials("rigoberto.castellan@minbuza.onmicrosoft.com","Robles*866"));
+        when(adminUser).attemptsTo(Login.withMicrosoftCredentials("email","password"));
     }
 }
